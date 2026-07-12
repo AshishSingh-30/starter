@@ -5,7 +5,7 @@ import "./index.css"
 import App from "./App.tsx"
 import { ThemeProvider } from "@/components/theme-provider.tsx"
 
-const ENABLE_THEME_PROVIDER = false
+const ENABLE_THEME_PROVIDER = true
 
 const OptionalThemeProvider = ({ children }: { children: React.ReactNode }) =>
   ENABLE_THEME_PROVIDER ? (
